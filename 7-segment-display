@@ -6,7 +6,7 @@ Specifications:
 
 
 
-  bic.b #10111110b, &P1SEL ; make P1.1, 2, 3, 4, 5, and 7 Digital I/O
+  	bic.b #10111110b, &P1SEL ; make P1.1, 2, 3, 4, 5, and 7 Digital I/O
 	bic.b #10111110b, &P1SEL2 ; make P1.1, 2, 3, 4, 5, and 7 Digital I/O
 	bic.b #00000101b, &P2SEL ; make P2.0 and 2 Digital I/O
 	bic.b #00000101b, &P2SEL2 ; make P2.0 and 2 Digital I/O
